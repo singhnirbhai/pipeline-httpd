@@ -6,7 +6,7 @@ RUN yum install -y httpd && \
     yum clean all
 
 # Copy the index.html file into the web server directory
-COPY index.html /var/www/html/
+COPY index.html pencils.jpg /var/www/html/
 
 # Set the working directory
 WORKDIR /var/www/html
